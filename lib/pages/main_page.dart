@@ -10,7 +10,9 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.pink[50],
       appBar: AppBar(
+        elevation: 0,
         title: Text('HomePage'),
         centerTitle: true,
       ),
